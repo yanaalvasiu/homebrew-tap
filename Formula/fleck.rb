@@ -10,7 +10,8 @@ class Fleck < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", "-trimpath", "-o", bin/"fleck", "./cmd/bin"
+    ldflags = "-s -w -X main.version=#{version} -X main.commit=homebrew -X main.buildDate=formula"
+    system "go", "build", "-trimpath", "-ldflags", ldflags, "-o", bin/"fleck", "./cmd/bin"
   end
 
   test do
