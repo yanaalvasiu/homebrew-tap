@@ -3,7 +3,7 @@ class Fleck < Formula
   desc "Cautious all-in-one macOS utility CLI"
   homepage "https://github.com/yanaalvasiu/fleck"
   url "https://github.com/yanaalvasiu/fleck/archive/refs/heads/main.tar.gz"
-  sha256 "6e2302e6e302b923a905cf4bcee77cc9348ff5380f8cbc1f1bdf85cc42bd8073"
+  sha256 "cc87a34b4c00109d01a980f9edf265055882e84b2d291ddfb015f91ae1678185"
   version "0.0.0"
   license "GPL-3.0-or-later"
 
