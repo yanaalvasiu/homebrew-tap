@@ -4,7 +4,7 @@ class Fleck < Formula
   homepage "https://github.com/yanaalvasiu/fleck"
   url "https://github.com/yanaalvasiu/fleck/archive/refs/heads/main.tar.gz"
   sha256 "852439fc97ba4b01d90ee785363052fa47cead6b3e129b2fc0cc901a7ac85cf8"
-  version "0.0.0"
+  version "0.1.0"
   license "GPL-3.0-or-later"
 
   depends_on "go" => :build
