@@ -2,9 +2,9 @@
 class Fleck < Formula
   desc "Cautious all-in-one macOS utility CLI"
   homepage "https://github.com/yanaalvasiu/fleck"
-  url "https://github.com/yanaalvasiu/fleck/archive/bae4305f8b9a2d3016168597d9b51e6f517001ef.tar.gz"
-  sha256 "ec4af73d29469031f63a5237361f09dc052fce31df936d0bdc045e26dbe279b9"
-  version "0.1.6"
+  url "https://github.com/yanaalvasiu/fleck/archive/40667ed.tar.gz"
+  sha256 "38b887c41c9c221db00093b323684b9b7b82b68dca3495da349777f2cd86cf48"
+  version "0.1.7"
   license "GPL-3.0-or-later"
 
   depends_on "go" => :build
